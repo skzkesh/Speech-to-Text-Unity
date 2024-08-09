@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 1ed7ee5472cf54bdea3f564f9522ebab
+  - enabled: 0
+    path: Assets/Scenes/Knowledge.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/BasketWord.unity
+    guid: 317410d01e9fa4d979b64fd601952de4
+  - enabled: 1
+    path: Assets/Scenes/STTGame.unity
+    guid: 12abd99e624c34584aed31acf4f7a128
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: 97b80077cf58c4433a690e16561d66c9
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 6794c03140fcb4a0aa12b4165f833588
+  m_configObjects: {}
