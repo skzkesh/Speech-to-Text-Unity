@@ -12,8 +12,8 @@ The game features a diverse set of Unity-based components, including: <br>
 The project leverages the powerful Hugging Face API for the speech-to-text mechanism, which converts the user's spoken words into text for comparison with the displayed word. Additionally, the game utilizes the Bayat Games Free Platform Game Assets from the Unity Asset Store, providing a visually appealing and polished user experience. <br>
 
 <h2 align="left">Table of Content</h2>
-..* Project Installation Guide
-..* Requirements
+  * Project Installation Guide <br>
+  * Requirements <br>
 
 <h2>Project Installation Guide</h2>
 
