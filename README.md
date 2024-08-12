@@ -38,7 +38,7 @@ The project leverages the powerful Hugging Face API for the speech-to-text mecha
 <h2 id="requirements">Requirements</h2>
 
 <ul>
- <li><Hugging Face API</li>
+ <li><Hugging_Face_API</li>
  <li>Bayat Games Free Platform Game Assets</li>
 </ul>
 
