@@ -65,5 +65,5 @@ This is a function that is triggered when we succefully compare the correct word
 <H2>Architecture</H2>
 This is an explain of the main C# script for this game, which name "STT".
 <ul>
- <li>'''code'''</li>
+ <li>```code```</li>
 </ul>
