@@ -12,10 +12,10 @@ The game features a diverse set of Unity-based components, including: <br>
 The project leverages the powerful Hugging Face API for the speech-to-text mechanism, which converts the user's spoken words into text for comparison with the displayed word. Additionally, the game utilizes the Bayat Games Free Platform Game Assets from the Unity Asset Store, providing a visually appealing and polished user experience. <br>
 
 <h2 align="left">Table of Content</h2>
-  * Project Installation Guide <br>
+  * Project Installation and Set Up Guide <br>
   * Requirements <br>
 
-<h2>Project Installation Guide</h2>
+<h2>Project Installation and Set Up Guide</h2>
 
 **Step 1**: Download <a href="https://unity.com/download">Unity Hub </a>.
 
@@ -23,4 +23,16 @@ The project leverages the powerful Hugging Face API for the speech-to-text mecha
 
 **Step 3**: Download ZIP of this project in Github. Extract the file on your computer.
 
-**Step 4**: Open your Unity Hub Projects section. Click ‘add’ then choose ‘add project from disk’
+**Step 4**: Open your Unity Hub Projects section. Click ‘add’ then choose ‘add project from disk’.
+
+**Step 5**: Click the project name to access it.
+
+**Step 6**: Open the “STTGame” Scene through Project → Assets → Scenes. 
+
+**Step 7**: Click run to start the game. Follow the instruction on how to play the game.
+
+<h2>Requirements</h2>
+
+<ul>
+ <li>Hugging Face API</li>
+</ul>
