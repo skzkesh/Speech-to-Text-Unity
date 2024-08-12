@@ -48,7 +48,7 @@ Hugging Face API provides a large collection of pre-trained language models that
 <h3>Bayat Games Free Platform Game Assets</h3>
 This is the game asset that I use to create this project. It can be find in <a href="https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838"> Unity Asset Store</a>
 
-<h2>Features</h2>
+<h2 id="features">Features</h2>
 <h3>CSV File Reader</h3>
 To import a CSV file in Unity, you must create an Excel spreadsheet and save it in CSV (Comma-Separated Values) format. Next, import the CSV file into your Unity project's asset folder. Finally, you'll need to create a C# script to read and process the data from the CSV file. This script should be flexible enough to handle the number of columns in your data. Within the script, you can include methods to retrieve random words, sentences, and passages from the CSV data to use in your game. The CSV file reader script can be accessed by navigating to the "Assets" > "Scripts" folder in your Unity project.
 
@@ -62,20 +62,8 @@ The countdown timer is a function in the main script that is use to limit the ga
 This is a function that is triggered when we succefully compare the correct word and word said by the user
 
 
-<H2>Architecture</H2>
+<H2 id="architecture">Architecture</H2>
 This is an explain of the main C# script for this game, which name "STT". <br>
-
-`SendRecording()` is trigger when the recording stop. In this function, the Hugging Face API will be call to convert voice to text.
-`EncodeAsWAV()` is used to generate a WAV (Waveform Audio File Format) audio file from an array of audio samples.
-`RemoveLeadingSpace()` is used to removes any leading spaces from the input string.
-`AreTheyEqual()` to compare the words spoken and correct word by removing all punctuations and turn it to lowercase.
-`displayCorrectWordFromArray()` is used to display correct word on the screen.
-`displayScore()` is used to display current score.
-`SkipButtonClick()` is used to skip current word to the next word by increasing the index and displaying the new word.
-`CountdownCoroutine()` is a coroutine (a special type of function in Unity) that is responsible for managing a countdown timer in a game or application.
-`UpdateTimerText()` to display the current time on the screen.
-
-
 
 1. ```Start()``` 
 is a built-in method that is called once when a script is first loaded. <br>
