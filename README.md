@@ -1,7 +1,7 @@
 <h1 align="left">Speech to Text Project with Unity and Hugging Face API</h1>
 <h2 align="left">Introduction</h2>
 
-**Speech-to-Text Game** is a simple yet engaging game that challenges players to pronounce English words displayed on the screen correctly. The objective is to collect as many points as possible within a 1-minute timeframe by accurately pronouncing the words. <br>
+**Speech-to-Text Game** is a game that challenges players to pronounce English words displayed on the screen correctly. The objective is to collect as many points as possible within a 1-minute timeframe by accurately pronouncing the words. <br>
 
 The game features a diverse set of Unity-based components, including: <br>
   **1. Countdown Timer**: A dynamic timer that keeps track of the 1-minute gameplay session. <br>
@@ -11,3 +11,5 @@ The game features a diverse set of Unity-based components, including: <br>
 
 The project leverages the powerful Hugging Face API for the speech-to-text mechanism, which converts the user's spoken words into text for comparison with the displayed word. Additionally, the game utilizes the Bayat Games Free Platform Game Assets from the Unity Asset Store, providing a visually appealing and polished user experience. <br>
 
+<h2 align="left">Table of Content</h2>
+[Requirements](https://www.google.com)
