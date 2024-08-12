@@ -64,7 +64,7 @@ This is a function that is triggered when we succefully compare the correct word
 
 <H2>Architecture</H2>
 This is an explain of the main C# script for this game, which name "STT".
-`Start()` 
+```Start()``` 
 is a built-in method that is called once when a script is first loaded.
 `Update()` is a built-in method that is called once per frame.
 `StartRecording()` is used to start voice recording.
