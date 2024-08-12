@@ -1,1 +1,1 @@
-<span style="font-family:Verdana">Introduction</span>
+<span style="font-family:'Arial', sans-serif; font-weight:bold;">Introduction</span>
