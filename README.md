@@ -54,3 +54,9 @@ To import a CSV file in Unity, you must create an Excel spreadsheet and save it 
 
 <h3>Loudness Meter</h3>
 The Loudness Meter is a visual tool that helps users determine the volume of their voice. It features a bar graph that serves as a reference, indicating to the user when they need to speak louder so the microphone can accurately detect their voice. This <a href="https://youtu.be/GAHMreCT4SY?si=rWgkoBjaGiFQqdvR">tutorial</a> provides a detailed guide on how to create a functional loudness scale.
+
+<h3>Countdown Timer</h3>
+The countdown timer is a function in the main script that is use to limit the game duration. Once the timer is off, the game will end and display game over screen.
+
+<H3>Point Collection</H3>
+This is a function that is triggered when we succefully compare the correct word and word said by the user
