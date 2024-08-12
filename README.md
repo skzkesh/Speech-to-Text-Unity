@@ -69,3 +69,4 @@ This is an explain of the main C# script for this game, which name "STT".
 </ul>
 
 `code`
+```code```
