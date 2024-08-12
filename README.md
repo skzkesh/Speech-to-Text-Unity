@@ -36,9 +36,9 @@ The project leverages the powerful Hugging Face API for the speech-to-text mecha
 <h2>Requirements</h2>
 
 <ul>
- <li>Hugging Face API</li>
+ <li><a href="#hugging-face">Hugging Face API</a></li>
 </ul>
 
-<h2>Hugging Face API</h2>
-Hugging Face API provides a large collection of pre-trained language models that can be use for various NLP tasks. Hugging Face speech-to-text API, powered by the Whisper model provides a speech recognition solution with multilingual support and flexible integration. In this project, we utilise Hugging Face API to record our voice and convert it to text. The tutorial of Hugging Face API configuration in Unity can be found in this <a href="https://youtu.be/Ngmb7l7tO0I?si=iqoD4_R4gIYp0UEg">youtube link</a> or this <a href="https://huggingface.co/blog/unity-api">blog</a>.
+<h2 id="hugging-face">Hugging Face API</h2>
+Hugging Face API provides a large collection of pre-trained language models that can be use for various NLP tasks. Hugging Face speech-to-text API, powered by the Whisper model provides a speech recognition solution with multilingual support and flexible integration. In this project, we utilise Hugging Face API to record our voice and convert it to text. The tutorial of Hugging Face API configuration in Unity can be found in this <a href="https://youtu.be/Ngmb7l7tO0I?si=iqoD4_R4gIYp0UEg">youtube</a> or this <a href="https://huggingface.co/blog/unity-api">blog</a>.
 
