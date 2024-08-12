@@ -64,11 +64,7 @@ This is a function that is triggered when we succefully compare the correct word
 
 <H2>Architecture</H2>
 This is an explain of the main C# script for this game, which name "STT". <br>
-```Start()``` 
-is a built-in method that is called once when a script is first loaded.
-`Update()` is a built-in method that is called once per frame.
-`StartRecording()` is used to start voice recording.
-`StopRecording()` is used to stop voice recording.
+
 `SendRecording()` is trigger when the recording stop. In this function, the Hugging Face API will be call to convert voice to text.
 `EncodeAsWAV()` is used to generate a WAV (Waveform Audio File Format) audio file from an array of audio samples.
 `RemoveLeadingSpace()` is used to removes any leading spaces from the input string.
@@ -80,5 +76,25 @@ is a built-in method that is called once when a script is first loaded.
 `UpdateTimerText()` to display the current time on the screen.
 
 
-```code```
-```Start()``` 
+
+1. ```Start()``` 
+is a built-in method that is called once when a script is first loaded. <br>
+2. ```Update()```
+is a built-in method that is called once per frame. <br>
+3. ```StartRecording()```
+is used to start voice recording.
+4. ```StopRecording()```
+is used to stop voice recording.
+5. ```SendRecording()```
+is trigger when the recording stop. In this function, the Hugging Face API will be call to convert voice to text.
+6. ```EncodeAsWAV()```
+is used to generate a WAV (Waveform Audio File Format) audio file from an array of audio samples.
+7. ```RemoveLeadingSpace()```
+is used to removes any leading spaces from the input string.
+8. ```displayCorrectWordFromArray()```
+is used to display correct word on the screen.
+9. ```displayScore()```
+is used to display current score.
+10. `SkipButtonClick()` is used to skip current word to the next word by increasing the index and displaying the new word.
+11. `CountdownCoroutine()` is a coroutine (a special type of function in Unity) that is responsible for managing a countdown timer in a game or application.
+12. `UpdateTimerText()` to display the current time on the screen.
