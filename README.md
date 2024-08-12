@@ -1,4 +1,4 @@
-<h1 align="left">Speech to Text Project with Unity and Hugging Face API</h1>
+<h1 align="left">Speech to Text Project with Unity and Hugging Face API</h1> 
 <h2 align="left">Introduction</h2>
 
 **Speech-to-Text Game** is a game that challenges players to pronounce English words displayed on the screen correctly. The objective is to collect as many points as possible within a 1-minute timeframe by accurately pronouncing the words. <br>
