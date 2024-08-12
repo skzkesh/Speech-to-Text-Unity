@@ -60,3 +60,10 @@ The countdown timer is a function in the main script that is use to limit the ga
 
 <H3>Point Collection</H3>
 This is a function that is triggered when we succefully compare the correct word and word said by the user
+
+
+<H2>Architecture</H2>
+This is an explain of the main C# script for this game, which name "STT".
+<ul>
+ <li>'''code'''</li>
+</ul>
