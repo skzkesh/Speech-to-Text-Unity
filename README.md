@@ -13,11 +13,13 @@ The project leverages the powerful Hugging Face API for the speech-to-text mecha
 
 <h2 align="left">Table of Content</h2>
 <ul>
- <li>Project Installation and Set Up Guide</li>
- <li>Requirements</li>
+ <li a href="#guide">Project Installation and Set Up Guide</a></li>
+ <li a href="#requirements">Requirements</a></li>
+ <li a href="#features">Game Features</a></li>
+ <li a href="#architecture">Architecture</a></li>
 </ul>
 
-<h2>Project Installation and Set Up Guide</h2>
+<h2 id="guide">Project Installation and Set Up Guide</h2>
 
 **Step 1**: Download <a href="https://unity.com/download">Unity Hub </a>.
 
@@ -33,12 +35,22 @@ The project leverages the powerful Hugging Face API for the speech-to-text mecha
 
 **Step 7**: Click run to start the game. Follow the instruction on how to play the game.
 
-<h2>Requirements</h2>
+<h2 id="requirements">Requirements</h2>
 
 <ul>
- <li><a href="#hugging-face">Hugging Face API</a></li>
+ <li><Hugging Face API</li>
+ <li>Bayat Games Free Platform Game Assets</li>
 </ul>
 
-<h2 id="hugging-face">Hugging Face API</h2>
+<h3>Hugging Face API</h3>
 Hugging Face API provides a large collection of pre-trained language models that can be use for various NLP tasks. Hugging Face speech-to-text API, powered by the Whisper model provides a speech recognition solution with multilingual support and flexible integration. In this project, we utilise Hugging Face API to record our voice and convert it to text. The tutorial of Hugging Face API configuration in Unity can be found in this <a href="https://youtu.be/Ngmb7l7tO0I?si=iqoD4_R4gIYp0UEg">youtube</a> or this <a href="https://huggingface.co/blog/unity-api">blog</a>.
 
+<h3>Bayat Games Free Platform Game Assets</h3>
+This is the game asset that I use to create this project. It can be find in <a href="https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838"> Unity Asset Store</a>
+
+<h2>Features</h2>
+<h3>CSV File Reader</h3>
+To import a CSV file in Unity, you must create an Excel spreadsheet and save it in CSV (Comma-Separated Values) format. Next, import the CSV file into your Unity project's asset folder. Finally, you'll need to create a C# script to read and process the data from the CSV file. This script should be flexible enough to handle the number of columns in your data. Within the script, you can include methods to retrieve random words, sentences, and passages from the CSV data to use in your game. The CSV file reader script can be accessed by navigating to the "Assets" > "Scripts" folder in your Unity project.
+
+<h3>Loudness Meter</h3>
+The Loudness Meter is a visual tool that helps users determine the volume of their voice. It features a bar graph that serves as a reference, indicating to the user when they need to speak louder so the microphone can accurately detect their voice. This <a href="https://youtu.be/GAHMreCT4SY?si=rWgkoBjaGiFQqdvR">tutorial</a> provides a detailed guide on how to create a functional loudness scale.
