@@ -3,7 +3,7 @@
 
 **Speech-to-Text Game** is a simple yet engaging game that challenges players to pronounce English words displayed on the screen correctly. The objective is to collect as many points as possible within a 1-minute timeframe by accurately pronouncing the words. <br>
 
-The game features a diverse set of Unity-based components, including: 
+The game features a diverse set of Unity-based components, including: <br>
   **1. Countdown Timer**: A dynamic timer that keeps track of the 1-minute gameplay session. <br>
   **2. Point Collection**: A scoring system that rewards players for correctly pronouncing the displayed words. <br>
   **3. Loudness Detection**: The game utilizes the user's microphone input to assess the volume and accuracy of their pronunciation. <br>
