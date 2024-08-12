@@ -81,3 +81,4 @@ is a built-in method that is called once when a script is first loaded.
 
 
 ```code```
+```Start()``` 
