@@ -12,4 +12,15 @@ The game features a diverse set of Unity-based components, including: <br>
 The project leverages the powerful Hugging Face API for the speech-to-text mechanism, which converts the user's spoken words into text for comparison with the displayed word. Additionally, the game utilizes the Bayat Games Free Platform Game Assets from the Unity Asset Store, providing a visually appealing and polished user experience. <br>
 
 <h2 align="left">Table of Content</h2>
-[Requirements](https://www.google.com)
+* Unity Installation Guide
+* Requirements
+
+<h2>Unity Installation Guide</h2>
+
+**Step 1**: Download <a href="https://unity.com/download">Unity Hub </a>.
+
+**Step 2**: Choose the unity editor version 2022.3.32f1. Install editor if you don’t have this version.
+
+**Step 3**: Download ZIP of this project in Github. Extract the file on your computer.
+
+**Step 4**: Open your Unity Hub Projects section. Click ‘add’ then choose ‘add project from disk’
