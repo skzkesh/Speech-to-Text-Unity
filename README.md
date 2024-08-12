@@ -64,9 +64,19 @@ This is a function that is triggered when we succefully compare the correct word
 
 <H2>Architecture</H2>
 This is an explain of the main C# script for this game, which name "STT".
-<ul>
- <li>`code`</li>
-</ul>
+`Start()` is a built-in method that is called once when a script is first loaded.
+`Update()` is a built-in method that is called once per frame.
+`StartRecording()` is used to start voice recording.
+`StopRecording()` is used to stop voice recording.
+`SendRecording()` is trigger when the recording stop. In this function, the Hugging Face API will be call to convert voice to text.
+`EncodeAsWAV()` is used to generate a WAV (Waveform Audio File Format) audio file from an array of audio samples.
+`RemoveLeadingSpace()` is used to removes any leading spaces from the input string.
+`AreTheyEqual()` to compare the words spoken and correct word by removing all punctuations and turn it to lowercase.
+`displayCorrectWordFromArray()` is used to display correct word on the screen.
+`displayScore()` is used to display current score.
+`SkipButtonClick()` is used to skip current word to the next word by increasing the index and displaying the new word.
+`CountdownCoroutine()` is a coroutine (a special type of function in Unity) that is responsible for managing a countdown timer in a game or application.
+`UpdateTimerText()` to display the current time on the screen.
 
-`code`
+
 ```code```
