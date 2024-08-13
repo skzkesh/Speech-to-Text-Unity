@@ -92,3 +92,13 @@ is responsible for setting up and starting the microphone recording in a Unity a
 is used for calculating the current loudness or volume level of the audio being recorded through the microphone.
 4. ```GetLoudnessFromAudioClip()```
 is used for calculating the loudness or volume level of an audio clip based on a specific position within the clip.
+
+We also have "CSVReader" script that is used to read and collect data from CSV file. The functions in the script are as shown below:
+1. ```Start()```
+is a built-in method that is called once when a script is first loaded.
+2. ```ReadCSV()```
+
+4. GetRandomRowAndColumn()
+5. GetRandomWord()
+6. GetRandomSentence()
+7. GetRandomPassage()
