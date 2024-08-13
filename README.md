@@ -97,8 +97,12 @@ We also have "CSVReader" script that is used to read and collect data from CSV f
 1. ```Start()```
 is a built-in method that is called once when a script is first loaded.
 2. ```ReadCSV()```
-
-4. GetRandomRowAndColumn()
-5. GetRandomWord()
-6. GetRandomSentence()
-7. GetRandomPassage()
+is responsible for parsing and processing a CSV (Comma-Separated Values) file, likely containing a list of words, sentences, and passages, and storing the data in a custom data structure.
+3. ```GetRandomRowAndColumn()```
+is to generate random index and ensure that the function returns a different WordDisplay object each time it is called
+4. GetRandomWord()
+calls the GetRandomRowAndColumn function, which returns a random WordDisplay object from the myWordDisplayList.display array.
+5. GetRandomSentence()
+calls the GetRandomRowAndColumn function, which returns a random WordDisplay object from the myWordDisplayList.display array.
+6. GetRandomPassage()
+calls the GetRandomRowAndColumn function, which returns a random WordDisplay object from the myWordDisplayList.display array.
