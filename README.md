@@ -57,7 +57,7 @@ The countdown timer is a function in the main script that is use to limit the ga
 This is a function that is triggered when we successfully compare the correct word and word said by the user.
 
 
-<h2 id="architecture">Architecture</h2> <br>
+<h2 id="architecture">Architecture</h2>
 
 **This is an explain of the "STT" script as the main logic manager of the game.**
 
