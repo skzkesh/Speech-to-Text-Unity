@@ -58,7 +58,7 @@ This is a function that is triggered when we successfully compare the correct wo
 
 
 <H2 id="architecture">Architecture</H2>
-This is an explain of the "STT" script as the main logic manager of the game. <br>
+**This is an explain of the "STT" script as the main logic manager of the game.**
 
 1. ```Start()``` 
 is a built-in method that is called once when a script is first loaded. <br>
@@ -82,7 +82,7 @@ is used to display current score.
 11. `CountdownCoroutine()` is a coroutine (a special type of function in Unity) that is responsible for managing a countdown timer in a game or application.
 12. `UpdateTimerText()` to display the current time on the screen.
 
-The loudness detection feature is included in "TAudioLoudnessDetector" script. The functions in the script are as listed below:
+**The loudness detection feature is included in "TAudioLoudnessDetector" script. The functions in the script are as listed below:**
 
 1. ```Start()```
 is a built-in method that is called once when a script is first loaded.
@@ -93,7 +93,7 @@ is used for calculating the current loudness or volume level of the audio being 
 4. ```GetLoudnessFromAudioClip()```
 is used for calculating the loudness or volume level of an audio clip based on a specific position within the clip.
 
-We also have "CSVReader" script that is used to read and collect data from CSV file. The functions in the script are as shown below:
+**We also have "CSVReader" script that is used to read and collect data from CSV file. The functions in the script are as shown below:**
 1. ```Start()```
 is a built-in method that is called once when a script is first loaded.
 2. ```ReadCSV()```
