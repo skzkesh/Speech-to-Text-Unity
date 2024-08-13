@@ -41,24 +41,24 @@ The project leverages the powerful <a href="https://huggingface.co/docs/api-infe
 Hugging Face API provides a large collection of pre-trained language models that can be use for various NLP tasks. Hugging Face speech-to-text API, powered by the Whisper model provides a speech recognition solution with multilingual support and flexible integration. In this project, we utilise Hugging Face API to record our voice and convert it to text. The tutorial of Hugging Face API configuration in Unity can be found in this <a href="https://youtu.be/Ngmb7l7tO0I?si=iqoD4_R4gIYp0UEg">youtube</a> or this <a href="https://huggingface.co/blog/unity-api">blog</a>.
 
 <h3>Bayat Games Free Platform Game Assets</h3>
-This is the game asset that I use to create this project. It can be find in <a href="https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838"> Unity Asset Store</a>
+This is the game asset that we use to create this project. It can be find in <a href="https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838"> Unity Asset Store</a>
 
 <h2 id="features">Features</h2>
 <h3>CSV File Reader</h3>
 To import a CSV file in Unity, you must create an Excel spreadsheet and save it in CSV (Comma-Separated Values) format. Next, import the CSV file into your Unity project's asset folder. Finally, you'll need to create a C# script to read and process the data from the CSV file. This script should be flexible enough to handle the number of columns in your data. Within the script, you can include methods to retrieve random words, sentences, and passages from the CSV data to use in your game. The CSV file reader script can be accessed by navigating to the "Assets" > "Scripts" folder in your Unity project.
 
 <h3>Loudness Meter</h3>
-The Loudness Meter is a visual tool that helps users determine the volume of their voice. It features a bar graph that serves as a reference, indicating to the user when they need to speak louder so the microphone can accurately detect their voice. This <a href="https://youtu.be/GAHMreCT4SY?si=rWgkoBjaGiFQqdvR">tutorial</a> provides a detailed guide on how to create a functional loudness scale.
+The Loudness Meter is a visual tool that helps users determine the volume of their voice. It features a bar graph that serves as a reference, indicating to the user when they need to speak louder so the microphone can accurately detect their voice. This <a href="https://youtu.be/GAHMreCT4SY?si=rWgkoBjaGiFQqdvR">tutorial reference</a> provides a detailed guide on how to create a functional loudness scale.
 
 <h3>Countdown Timer</h3>
 The countdown timer is a function in the main script that is use to limit the game duration. Once the timer is off, the game will end and display game over screen.
 
 <H3>Point Collection</H3>
-This is a function that is triggered when we succefully compare the correct word and word said by the user
+This is a function that is triggered when we successfully compare the correct word and word said by the user.
 
 
 <H2 id="architecture">Architecture</H2>
-This is an explain of the main C# script for this game, which name "STT". <br>
+This is an explain of the "STT" script as the main logic manager of the game. <br>
 
 1. ```Start()``` 
 is a built-in method that is called once when a script is first loaded. <br>
@@ -82,5 +82,7 @@ is used to display current score.
 11. `CountdownCoroutine()` is a coroutine (a special type of function in Unity) that is responsible for managing a countdown timer in a game or application.
 12. `UpdateTimerText()` to display the current time on the screen.
 
-<a href="/Users/keshiapoedjiono/Desktop/Screenshot 2024-08-13 at 11.21.51 AM.png"></a>
-![Image Description](/Users/keshiapoedjiono/Desktop/Screenshot 2024-08-13 at 11.21.51 AM.png)
+The loudness detection feature is included in "TAudioLoudnessDetector" script. The functions in the script are as listed below:
+
+1. ```Start()```
+2. ```MicrophoneToAudioClip()```
