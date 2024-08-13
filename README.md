@@ -85,4 +85,10 @@ is used to display current score.
 The loudness detection feature is included in "TAudioLoudnessDetector" script. The functions in the script are as listed below:
 
 1. ```Start()```
+is a built-in method that is called once when a script is first loaded.
 2. ```MicrophoneToAudioClip()```
+is responsible for setting up and starting the microphone recording in a Unity application.
+3. ```GetLoudnessFromMicrophone()```
+is used for calculating the current loudness or volume level of the audio being recorded through the microphone.
+4. ```GetLoudnessFromAudioClip()```
+is used for calculating the loudness or volume level of an audio clip based on a specific position within the clip.
